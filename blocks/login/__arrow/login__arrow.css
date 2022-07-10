@@ -1,0 +1,12 @@
+.login__arrow {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 10px;
+    height: 7px;
+    color: #214E41;
+    margin-right: 30px;
+    padding: 2px;
+    margin-left: 6px;
+    margin-top: 3px;
+}

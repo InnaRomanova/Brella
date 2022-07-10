@@ -1,0 +1,9 @@
+.choice-conteiner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    column-gap: 16px;
+    margin: 0 50px;
+    padding: 0;
+    list-style: none;
+}

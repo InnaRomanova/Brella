@@ -1,0 +1,11 @@
+.header__menu-link {
+    width: 62px;
+    height: 20px;
+    margin: 25px;
+    margin-top: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 154%;
+}

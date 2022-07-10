@@ -1,0 +1,12 @@
+.first-frame__plan-list {
+    width: 256px;
+    height: 60px;
+    padding: 0 0 0 18px;
+    margin: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    border: 0;
+}

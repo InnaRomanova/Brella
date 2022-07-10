@@ -1,0 +1,12 @@
+.language-selector__text {
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 154%;
+    text-transform: uppercase;
+    color: #214E41;
+}

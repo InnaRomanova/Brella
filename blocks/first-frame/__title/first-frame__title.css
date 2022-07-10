@@ -1,0 +1,12 @@
+.first-frame__title {
+    margin: 0 0 0 120px;
+    padding: 161px 0 40px;
+    max-width: 516px;
+    height: 138px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 128%;
+    color: #214E41;
+}

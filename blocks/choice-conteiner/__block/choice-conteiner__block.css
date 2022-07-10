@@ -1,0 +1,5 @@
+.choice-conteiner__block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
