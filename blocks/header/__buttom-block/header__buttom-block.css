@@ -4,3 +4,10 @@
     align-items: center;
     margin-bottom: 14px;
 }
+
+@media screen and (max-width: 665px) {
+    .header__buttom-block {
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+}

@@ -2,3 +2,9 @@
     margin: 0;
     padding: 0 0 0 29px;
 }
+
+@media screen and (max-width: 611px) {
+    .login__text  {
+      padding-left: 0;
+    }
+}

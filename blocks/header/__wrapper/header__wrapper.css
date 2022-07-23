@@ -4,3 +4,10 @@
     margin: 28px auto 33px 43px;
     padding: 0;
 }
+
+@media screen and (max-width: 786px) {
+    .header__wrapper {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

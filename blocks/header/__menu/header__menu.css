@@ -4,3 +4,40 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 1100px) {
+    .header__menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 40px);
+        column-gap: 100px;
+        padding: 10px 40px 0 40px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .header__menu {
+        column-gap: 60px;
+        padding-right: 10px;
+        padding-left: 10px
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .header__menu {
+        column-gap: 40px;
+    }
+}
+
+@media screen and (max-width: 727px) {
+    .header__menu {
+        column-gap: 10px;
+    }
+}
+
+/* @media screen and (max-width: 510px) {
+    .header__menu {
+        gap: 10px;
+        grid-template-rows: repeat(2, 20px);
+    }
+} */

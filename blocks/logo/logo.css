@@ -2,8 +2,13 @@
     background-image: url(../../images/logo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 6px 2px;
     padding: 0;
     width: 75px;
     height: 22px;
+}
+
+@media screen and (max-width: 786px) {
+    .logo {
+        
+    }
 }
