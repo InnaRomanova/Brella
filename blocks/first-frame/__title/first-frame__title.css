@@ -10,3 +10,13 @@
     line-height: 128%;
     color: #214E41;
 }
+
+@media screen and (max-width: 786px) {
+    .first-frame__title {
+        padding-top: 20px;
+        padding-bottom: 60px;
+        margin-left: 90px;
+        font-size: 30px;
+        margin-right: 40px;
+    }
+}

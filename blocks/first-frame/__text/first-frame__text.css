@@ -8,3 +8,10 @@
     font-size: 16px;
     line-height: 150%;
 }
+
+@media screen and (max-width: 786px) {
+    .first-frame__text {
+        margin-left: 90px;
+        font-size: 10px;
+    }
+}

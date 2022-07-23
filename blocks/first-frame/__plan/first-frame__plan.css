@@ -2,3 +2,10 @@
     margin: 0 0 0 120px;
     padding: 0;
 }
+
+@media screen and (max-width: 786px) {
+    .first-frame__plan {
+        margin-left: 90px;
+        margin-right: 40px;
+    }
+}
