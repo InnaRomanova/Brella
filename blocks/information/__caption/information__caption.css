@@ -1,0 +1,13 @@
+.information__caption {
+    height: 20px;
+    width: 95px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 154%;
+    letter-spacing: 0.05px;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
