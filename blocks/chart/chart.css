@@ -3,4 +3,5 @@
     height: 432px;
     padding: 176px 0 120px 0;
     margin: 0 120px;
+    display: flex;
 }

@@ -39,9 +39,118 @@
 @import url(./blocks/information/__plan/information__plan.css);
 @import url(./blocks/information/__plan-text/information__plan-text.css);
 
+.information-block {
+    margin: 0;
+    padding: 0;
+    width: 510px;
+    height: 432px;
+}
 
+.information__section {
+    display: flex;
+    width: 510px;
+    height: 364px;
+}
 
+.information__percent {
+    padding: 0;
+    width: 265px;
+    height: 202px;
+    flex-wrap: wrap;
+    margin: 0 0 20px 0;
+    display: flex;
+    align-self: flex-end;
+}
 
+.information__number {
+    margin: 0;
+    padding: 0;
+    height: 90px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 129%;
+    color: #214E41;
+}
 
+.information__would {
+    min-height: 44px;
+    max-width: 200px;
+    margin: 0;
+    padding: 0;
+    height: 22px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 169%;
+    letter-spacing: 0.02px;
+    color: #214E41;
+}
 
+.information__diagrams {
+    margin: 0;
+    padding: 0;
+    max-width: 235px;
+    height: 364px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
 
+.information__diagram-one {
+    margin: 0;
+    padding: 0;
+    height: 214px;
+}
+
+.information__maney {
+    margin: 0;
+    padding: 0;
+    width: 39px;
+    height: 22px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 169%;
+    text-align: center;
+    color: #214E41;
+}
+
+.information__diagram-first {
+    width: 78px;
+    height: 150px;
+    margin: 0 38px 0 0;
+}
+
+.information__diagram-two {
+    margin: 0;
+    padding: 0;
+    height: 364px;
+}
+
+.information__diagram-second {
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    width: 78px;
+    background: #43806C;
+    border-radius: 0px;
+}
+
+.information__rages {
+    margin: 0 0 0 auto;
+    padding: 0;
+    text-align: end;
+    width: 237px;
+    height: 22px;
+    left: calc(50% - 237px/2 + 116.5px);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 169%;
+    text-align: center;
+    color: #757575;
+}
