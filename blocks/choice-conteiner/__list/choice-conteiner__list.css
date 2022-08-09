@@ -5,3 +5,9 @@
     padding: 0;
     display: flex;
 }
+
+@media screen and (max-width: 550px) {
+    .choice-conteiner__list {
+        
+    }
+}

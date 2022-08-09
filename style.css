@@ -42,14 +42,25 @@
 .information-block {
     margin: 0;
     padding: 0;
-    width: 510px;
+    max-width: 510px;
     height: 432px;
+    position: relative;
 }
 
 .information__section {
     display: flex;
     width: 510px;
     height: 364px;
+    position: relative;
+}
+
+.information__line {
+    height: 2px;
+    width: 510px;
+    position: absolute;
+    background: #F0A446;
+    border-radius: 0px;
+    margin: 270px 0 0 10px;
 }
 
 .information__percent {
@@ -63,7 +74,7 @@
 }
 
 .information__number {
-    margin: 0;
+    margin: 28px 0 0 12px;
     padding: 0;
     height: 90px;
     font-family: 'Roboto';
@@ -75,27 +86,26 @@
 }
 
 .information__would {
-    min-height: 44px;
     max-width: 200px;
-    margin: 0;
+    margin: 0 0 0 10px;
     padding: 0;
     height: 22px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
-    line-height: 169%;
-    letter-spacing: 0.02px;
+    line-height: 175%;
+    letter-spacing: 0.06px;
     color: #214E41;
 }
 
 .information__diagrams {
-    margin: 0;
+    margin: 37px 0 0 21px;
     padding: 0;
     max-width: 235px;
     height: 364px;
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-flow: wrap-reverse;
 }
 
 .information__diagram-one {
@@ -105,7 +115,7 @@
 }
 
 .information__maney {
-    margin: 0;
+    margin: 0 0 0 18px;
     padding: 0;
     width: 39px;
     height: 22px;
@@ -124,6 +134,20 @@
     margin: 0 38px 0 0;
 }
 
+.information__would-text {
+    margin: 18px 0 0 0;
+    width: 73px;
+    height: 22px;
+    left: calc(50% - 73px/2 + 2.75px);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 169%;
+    text-align: center;
+    color: #214E41;
+}
+
 .information__diagram-two {
     margin: 0;
     padding: 0;
@@ -140,7 +164,8 @@
 }
 
 .information__rages {
-    margin: 0 0 0 auto;
+    margin: 48px 0 0 0;
+    position: absolute;
     padding: 0;
     text-align: end;
     width: 237px;
@@ -151,6 +176,6 @@
     font-weight: 400;
     font-size: 13px;
     line-height: 169%;
-    text-align: center;
+    text-align: right;
     color: #757575;
 }

@@ -9,3 +9,9 @@
         margin-right: 40px;
     }
 }
+
+@media screen and (max-width: 665px) {
+    .first-frame__plan {
+        margin-left: 30px;
+    }
+}

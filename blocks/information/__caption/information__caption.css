@@ -11,3 +11,21 @@
     margin: 0 0 20px 0;
     padding: 0;
 }
+
+@media screen and (max-width: 1159px) {
+    .information__caption {
+        font-size: 10px;
+        line-height: 140%;
+        letter-spacing: 0.05px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .information__caption {
+        font-size: 10px;
+        line-height: 140%;
+        letter-spacing: 0.05px;
+        margin-bottom: 10px;
+    }
+}
