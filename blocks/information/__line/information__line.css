@@ -1,0 +1,8 @@
+.information__line {
+    height: 2px;
+    width: 510px;
+    position: absolute;
+    background: #F0A446;
+    border-radius: 0px;
+    margin: 270px 0 0 10px;
+}

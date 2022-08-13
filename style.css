@@ -38,144 +38,68 @@
 @import url(./blocks/information/__text/information__text.css);
 @import url(./blocks/information/__plan/information__plan.css);
 @import url(./blocks/information/__plan-text/information__plan-text.css);
+@import url(./blocks/information-block/information-block.css);
+@import url(./blocks/information/__section/information__section.css);
+@import url(./blocks/information/__line/information__line.css);
+@import url(./blocks/information/__percent/information__percent.css);
+@import url(./blocks/information/__number/information__number.css);
+@import url(./blocks/information/__would/information__would.css);
+@import url(./blocks/information/__diagrams/information__diagrams.css);
+@import url(./blocks/information/__diagram-one/information__diagram-one.css);
+@import url(./blocks/information/__maney/information__maney.css);
+@import url(./blocks/information/__diagram-first/information__diagram-first.css);
+@import url(./blocks/information/__would-text/information__would-text.css);
+@import url(./blocks/information/__diagram-two/information__diagram-two.css);
+@import url(./blocks/information/__diagram-second/information__diagram-second.css);
+@import url(./blocks/information/__rages/information__rages.css);
 
-.information-block {
-    margin: 0;
-    padding: 0;
-    max-width: 510px;
-    height: 432px;
-    position: relative;
-}
-
-.information__section {
+.benefits {
+    max-width: 1440px;
+    min-height: 640px;
     display: flex;
-    width: 510px;
-    height: 364px;
-    position: relative;
 }
 
-.information__line {
-    height: 2px;
-    width: 510px;
-    position: absolute;
-    background: #F0A446;
-    border-radius: 0px;
-    margin: 270px 0 0 10px;
+.benefit {
+    max-width: 705px;
+    min-height: 640px;
+    background: #E3EEED;
 }
 
-.information__percent {
-    padding: 0;
-    width: 265px;
-    height: 202px;
-    flex-wrap: wrap;
-    margin: 0 0 20px 0;
-    display: flex;
-    align-self: flex-end;
-}
-
-.information__number {
-    margin: 28px 0 0 12px;
-    padding: 0;
-    height: 90px;
+.benefit__title {
+    min-height: 42px;
+    top: calc(50% - 42px/2);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 70px;
-    line-height: 129%;
+    font-size: 32px;
+    line-height: 131%;
     color: #214E41;
 }
 
-.information__would {
-    max-width: 200px;
-    margin: 0 0 0 10px;
-    padding: 0;
-    height: 22px;
-    font-family: 'Raleway';
+.benefit__text {
+    height: 42px;
+    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 175%;
-    letter-spacing: 0.06px;
-    color: #214E41;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 131%;
+    color: #43806C;
 }
 
-.information__diagrams {
-    margin: 37px 0 0 21px;
-    padding: 0;
-    max-width: 235px;
-    height: 364px;
-    display: flex;
-    flex-flow: wrap-reverse;
+.moderate {
+    max-width: 735px;
+    min-height: 640px;
+    background: #214E41;
 }
 
-.information__diagram-one {
-    margin: 0;
-    padding: 0;
-    height: 214px;
-}
-
-.information__maney {
-    margin: 0 0 0 18px;
-    padding: 0;
-    width: 39px;
-    height: 22px;
+.moderate__text {
+    height: 136px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
-    line-height: 169%;
-    text-align: center;
-    color: #214E41;
-}
+    font-size: 20px;
+    line-height: 170%;
+    letter-spacing: 0.02px;
+    color: #FFFFFF;
 
-.information__diagram-first {
-    width: 78px;
-    height: 150px;
-    margin: 0 38px 0 0;
-}
-
-.information__would-text {
-    margin: 18px 0 0 0;
-    width: 73px;
-    height: 22px;
-    left: calc(50% - 73px/2 + 2.75px);
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 169%;
-    text-align: center;
-    color: #214E41;
-}
-
-.information__diagram-two {
-    margin: 0;
-    padding: 0;
-    height: 364px;
-}
-
-.information__diagram-second {
-    margin: 0;
-    padding: 0;
-    height: 300px;
-    width: 78px;
-    background: #43806C;
-    border-radius: 0px;
-}
-
-.information__rages {
-    margin: 48px 0 0 0;
-    position: absolute;
-    padding: 0;
-    text-align: end;
-    width: 237px;
-    height: 22px;
-    left: calc(50% - 237px/2 + 116.5px);
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 169%;
-    text-align: right;
-    color: #757575;
 }

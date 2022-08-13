@@ -1,0 +1,16 @@
+.information__rages {
+    margin: 48px 0 0 0;
+    position: absolute;
+    padding: 0;
+    text-align: end;
+    width: 237px;
+    height: 22px;
+    left: calc(50% - 237px/2 + 116.5px);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 169%;
+    text-align: right;
+    color: #757575;
+}

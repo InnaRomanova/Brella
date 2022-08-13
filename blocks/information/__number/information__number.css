@@ -1,0 +1,11 @@
+.information__number {
+    margin: 28px 0 0 12px;
+    padding: 0;
+    height: 90px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 129%;
+    color: #214E41;
+}

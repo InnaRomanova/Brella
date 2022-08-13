@@ -1,0 +1,13 @@
+.information__would {
+    max-width: 200px;
+    margin: 0 0 0 10px;
+    padding: 0;
+    height: 22px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 175%;
+    letter-spacing: 0.06px;
+    color: #214E41;
+}
