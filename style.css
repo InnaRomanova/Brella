@@ -57,12 +57,16 @@
     max-width: 1440px;
     min-height: 640px;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .benefit {
-    max-width: 705px;
-    min-height: 640px;
+    width: 705px;
+    /* min-height: 640px; */
     background: #E3EEED;
+    margin: 0;
+    padding: 120px 0 120px 120px;
 }
 
 .benefit__title {
@@ -71,9 +75,10 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 34px;
     line-height: 131%;
     color: #214E41;
+    margin: 30px 0 0 0;
 }
 
 .benefit__text {
@@ -81,25 +86,33 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 131%;
+    font-size: 35px;
+    line-height: 174%;
     color: #43806C;
+    margin: 6px 0 0 0;
+    padding: 0;
 }
 
 .moderate {
     max-width: 735px;
-    min-height: 640px;
+    /* min-height: 640px; */
     background: #214E41;
+    padding: 164px 0;
 }
 
 .moderate__text {
-    height: 136px;
+    min-height: 136px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 170%;
+    font-size: 22px;
+    line-height: 155%;
     letter-spacing: 0.02px;
     color: #FFFFFF;
+    margin: 0;
+    padding: 0 128px 0 115px;
+}
 
+.moderate__text:last-child {
+    margin-top: 35px;
 }
