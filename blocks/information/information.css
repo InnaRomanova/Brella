@@ -1,6 +1,18 @@
 .information {
     max-width: 510px;
-    height: 358px;
+    min-height: 358px;
     margin: 37px 60px;
     padding: 0;
+}
+
+@media screen and (max-width: 1034px) {
+    .information {
+    margin: 25px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 682px) {
+    .information {
+    min-height: 100px;
+    }
 }

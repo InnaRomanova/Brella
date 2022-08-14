@@ -11,3 +11,9 @@
     letter-spacing: 0.06px;
     color: #214E41;
 }
+
+@media screen and (max-width: 939px) {
+    .information__would {
+        margin-left: 0;
+}
+}

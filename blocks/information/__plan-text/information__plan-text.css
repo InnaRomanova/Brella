@@ -1,5 +1,5 @@
 .information__plan-text {
-    max-height: 36px;
+    min-height: 36px;
     margin: 0;
     padding: 0;
     font-family: 'Raleway';
