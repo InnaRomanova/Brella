@@ -15,10 +15,10 @@
     color: #757575;
 }
 
-@media screen and (max-width: 464px) {
+@media screen and (max-width: 540px) {
     .information__rages {
         text-align: left;
         min-height: 44px;
-        
+        margin-top: 0;
     }
 }

@@ -4,5 +4,13 @@
     max-width: 235px;
     height: 364px;
     display: flex;
-    flex-flow: wrap-reverse;
+    align-items: end;
+}
+
+
+@media screen and (max-width: 678px) {
+    .information__diagrams {
+        flex-flow: row;
+        margin-top: 0;
+}
 }

@@ -18,16 +18,10 @@
     }
 }
 
-@media screen and (max-width: 692px) {
+@media screen and (max-width: 667px) {
     .chart {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 0;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .chart {
-        
     }
 }
